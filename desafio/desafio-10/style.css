@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf) format('opentype'), url('fontes/droid larry.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #47e068d7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #26d14b, #033f10    );
+    text-align: auto;
+    height: 200px;
+    margin: 0px;
+}
+
+.principal {
+    text-align: center;
+    margin: 0px;
+    color: white;
+    padding-top: 40px;
+}
+
+.paragrafo1{
+    text-align: center;
+    margin: 0px;
+    padding: 27px;
+    color: white;
+}
+
+.trecho1{
+    color: #033f10;
+}
+
+
+
+#d1{
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 20px;
+    color: white;
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+
+#d1:hover{
+    background-color: lightgray;
+} 
+
+
+
+
+#d2{
+    display: inline-block;
+    margin-right: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 0.9em;
+
+}
+
+#d2:hover{
+    background-color: lightgrey;
+} 
+
+
+
+
+#d3{
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    font-size: 0.9em;
+
+}
+
+#d3:hover{
+    background-color: lightgray;
+} 
+
+
+
+
+#d4{
+    display: inline-block;
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    font-size: 0.9em;
+}
+
+#d4:hover{
+    background-color: lightgrey;
+}
+
+
+
+
+
+main{
+    background-color: white;
+    max-width: 850px;
+    min-width: 320px;
+    margin: auto;
+    padding: 10px;
+}
+
+iframe{
+    width: 100%;
+}
+
+.titulo1{
+    font-family: 'droid';
+    font-size: 2em;
+    color: #033f10;
+}
+
+.paragrafo2{
+    text-align: justify;
+    font-weight: bold;
+}
+
+.titulo2{
+    font-family: 'droid';
+    color: #033f10;
+    background-color: #47e0687e;
+   
+}
+
+.paragrafo3{
+    text-align: justify;
+    font-weight: bold;
+}
+
+.paragrafo4{
+    text-align: justify;
+    font-weight: normal;
+}
+
+.titulo3{
+    font-family: 'droid';
+    color: #033f10;
+}
+
+.paragrafo6{
+    text-align: justify;
+    font-weight: normal;
+}
+
+
+.paragrafo7{
+    text-align: justify;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+nav{
+    text-align: center;
+}
+
+.div1{
+    background-color: #033f10;
+    width: 790px;
+    height: 400px;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
