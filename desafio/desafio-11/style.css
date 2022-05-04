@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+header >h1{
+    font-size: 7.4em;
+    text-align: center;
+    padding-top: 75px;
+    font-family: 'Passion One', 'cursive';
+}
+
+header >p{
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-weight: 100;
+}
+
+header >p >a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Passion One', cursive;
+}
+
+header >p >a:hover{
+    text-decoration: underline 1px;
+}
+
+main{
+    color: black;
+}
+
+.paragrafo1{
+    display: inline-block;
+    padding-left: 29px;
+    padding-top: 60px;
+    line-height: 2em;
+    width: 550px;
+    font-size: 3em;
+    font-family: 'Sriracha', 'cursive';
+    margin-bottom: 160px;
+}
+
+#imagem1{
+    position: relative;
+    background-position: right center;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+#imagem1 > div{
+    margin-left: 29px;
+    margin-top: 55px;
+    position: absolute;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.paragrafo2{
+    color: white;
+    line-height: 2em;
+    width: 550px;
+    font-size: 3em;
+    font-family: 'Sriracha', 'cursive';
+    padding: 5px;
+}
+
+.paragrafo3{
+    padding-left: 29px;
+    line-height: 2em;
+    width: 550px;
+    font-size: 3em;
+    font-family: 'Sriracha', 'cursive';
+    margin-bottom: 160px;
+}
+
+#imagem2{
+    box-shadow: inset 1px -3px 20px 0px black;
+    position: relative;
+    background-position: right center;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 890px;
+}
+
+#imagem2 >div {
+    margin-left: 29px;
+    margin-top: 55px;
+    position: absolute;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+footer{
+    background-color: black;
+    height: 40px;
+}
+
+footer> p{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 1.3em;
+    
+}
+
+footer >p >a {
+    text-decoration: none;
+    color: white;
+}
+
+footer >p >a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
+
+
+
