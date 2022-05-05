@@ -20,24 +20,25 @@ header{
 }
 
 header >h1{
-    font-size: 7.4em;
+    font-variant: small-caps;
+    font-size: 10vw;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 60px;
     font-family: 'Passion One', 'cursive';
 }
 
 header >p{
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 40px;
     font-weight: 100;
+    font-family: Helvetica, sans-serif;
 }
 
 header >p >a{
     text-decoration: none;
-    color: white;
-    font-family: 'Passion One', cursive;
+    color: rgb(255, 255, 255);
 }
 
 header >p >a:hover{
@@ -47,66 +48,56 @@ header >p >a:hover{
 main{
     color: black;
 }
-
+main > p{
+    padding-top: 60px;
+    padding-left: 29px;
+    padding-bottom: 150px;
+}
 .paragrafo1{
     display: inline-block;
-    padding-left: 29px;
-    padding-top: 60px;
     line-height: 2em;
-    width: 550px;
-    font-size: 3em;
+    font-size: 3.5vw;
     font-family: 'Sriracha', 'cursive';
-    margin-bottom: 160px;
 }
 
 #imagem1{
-    position: relative;
     background-position: right center;
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 800px;
+    
+
 }
 
 #imagem1 > div{
+    display: inline-block;
     margin-left: 29px;
     margin-top: 55px;
-    position: absolute;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.37);
+    margin-bottom: 80px;
 }
 .paragrafo2{
     color: white;
+    display: inline-block;
     line-height: 2em;
-    width: 550px;
-    font-size: 3em;
+    font-size: 3.5vw;
     font-family: 'Sriracha', 'cursive';
     padding: 5px;
 }
 
-.paragrafo3{
-    padding-left: 29px;
-    line-height: 2em;
-    width: 550px;
-    font-size: 3em;
-    font-family: 'Sriracha', 'cursive';
-    margin-bottom: 160px;
-}
-
 #imagem2{
     box-shadow: inset 1px -3px 20px 0px black;
-    position: relative;
+    
     background-position: right center;
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 890px;
 }
 
 #imagem2 >div {
     margin-left: 29px;
     margin-top: 55px;
-    position: absolute;
+    margin-bottom: 80px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.514);
 }
